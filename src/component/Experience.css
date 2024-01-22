@@ -1,0 +1,15 @@
+.Experience_container{
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+}
+.Experience_header{
+    font-size: 50px;
+    text-align: center ;
+    fill: blue;
+}
+.Experience_box{
+    text-align: center;
+}
+.Experience_box>li{
+    text-align: left;
+}

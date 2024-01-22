@@ -1,0 +1,50 @@
+.SendBut{
+    width: 80px;
+    margin: 30px;
+    cursor: pointer;
+    background-color: orangered;
+}
+.contactinfo{
+    text-align: center;
+    align-content: center;
+    width: auto;
+ 
+
+}
+.ContactMe{
+    font-size: 80px;
+    font-stretch: ultra-expanded;
+    color: rgb(250, 250, 81);
+    margin-bottom: 12px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    width: 390px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 390px;
+    height: 100px;
+}
+.conatact_question{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.contact_theory{
+    margin-bottom: 30px;
+    color: white;
+}
+.send_area{
+    color: whitesmoke;
+    background-color: rgb(48, 48, 252);
+    height: 40px;
+}
+@media (max-width : 500px) {
+    .ContactMe{
+        font-size: 50px;
+    }
+    .form_class{
+        margin: 0px 5px;
+    }
+}
