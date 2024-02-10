@@ -36,6 +36,7 @@
 
 .buttonadj{
     text-decoration: none;
+    margin-left: 10%;
 }
 .buttonadj img{
 
@@ -67,6 +68,9 @@ a{
 }
 .shower{
     color: white;
+}
+.contentadj{
+    margin-left: 16%;
 }
 @media (max-width:600px) {
     .hider{

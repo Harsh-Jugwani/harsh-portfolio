@@ -38,3 +38,14 @@
 .skill_container{
     background-color: rgb(30, 30, 30);
 }
+@media (max-width:480px) {
+    .Skill_heading{
+        font-size: 27.5px;
+    }
+    .skill_style{
+        width: 194px;
+        margin: 2px;
+        margin-left: 20px;
+    }
+    
+}

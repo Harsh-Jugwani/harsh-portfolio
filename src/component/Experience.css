@@ -13,3 +13,11 @@
 .Experience_box>li{
     text-align: left;
 }
+@media (max-width:480px) {
+    .Experience_header{
+        font-size: 27.5px;
+    }
+    .rocket{
+        width: 45px;
+    }
+}

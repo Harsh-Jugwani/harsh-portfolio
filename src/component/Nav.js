@@ -7,11 +7,12 @@ import {Link} from 'react-scroll'
 function showTaskbar(){
 
     const burgar = document.querySelector('.burgar');
-
+    const shower = document.querySelector('.shower')
     
     return(
 
-    burgar.style.display = 'flex'
+    burgar.style.display = 'flex',
+    shower.style.display = 'none'
 
 
     );
@@ -19,8 +20,14 @@ function showTaskbar(){
 function closeTaskbar(){
 
     const burgar = document.querySelector('.burgar');
+    const shower = document.querySelector('.shower')
+   
     return(
-    burgar.style.display = 'none'
+
+    burgar.style.display = 'none',
+    shower.style.display = 'flex'
+    
+
     );
 }
 export default function Nav(){

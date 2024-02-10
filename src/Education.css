@@ -38,3 +38,13 @@ h5{
 .school-logo-12{
   fill: blue;
 }
+@media (max-width:480px) {
+  .heading{
+      font-size: 27.5px;
+  }
+  .institute-name{
+    font-size: 22px;
+  }
+  
+  
+}

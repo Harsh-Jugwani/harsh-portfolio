@@ -3,6 +3,7 @@
     width: auto;
     color: whitesmoke;
     margin-bottom: 90px;
+    
   }
   .container-heading{
     text-align: center;
@@ -35,4 +36,10 @@
 }
 section{
   margin: 50px 0px;
+}
+@media (max-width:480px) {
+  .container-heading{
+      font-size: 27.5px;
+  }
+
 }

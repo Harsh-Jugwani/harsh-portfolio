@@ -24,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 5px;
+    padding: 0 60px;
 }
 .project_img{
     height: 196px;
@@ -58,8 +59,22 @@
     margin: 1% 45%;
     margin-top: 10px;
     cursor: pointer;
-
 }
-.proj-card:hover{
-    border: 2px solid black;
+@media (max-width:480px) {
+    .heading_proj{
+        font-size: 27.5px;
+    }
+    .proj-card{
+        width: 200px;
+        height: 350px;
+    }
+    .project_img{
+        height: 196px;
+        width: 192px;
+    }
+    .box{
+        
+        padding: 0;
+        margin: 0;
+    }
 }
