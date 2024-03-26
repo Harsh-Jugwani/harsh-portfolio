@@ -1,80 +1,78 @@
-#conatiner-proj{
-    background-color:rgb(30, 30, 30) ;
-    
+#conatiner-proj {
+  background-color: rgb(30, 30, 30);
 }
 
-.proj-card{
-    width: 300px;
+.proj-card {
+  width: 300px;
+  height: 350px;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+  padding: 4px 4px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.heading_proj {
+  color: whitesmoke;
+  font-weight: 1000;
+  margin: 40px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 0 60px;
+}
+.project_im {
+  height: 196px;
+
+  width: 290px;
+
+  border-radius: 0.5rem;
+}
+.icon-proj {
+  filter: invert(53%) sepia(80%) saturate(3790%) hue-rotate(88deg)
+    brightness(107%) contrast(113%);
+}
+.heading1 {
+  text-align: center;
+  font-weight: bolder;
+}
+.h3Class {
+  font-weight: 1000;
+  color: black;
+}
+.h6Class {
+  font-weight: 300;
+  color: black;
+}
+.ViewAll {
+  background-color: rgb(17, 201, 17);
+  color: white;
+  height: 40px;
+  width: 100px;
+
+  border-radius: 1rem;
+
+  margin: 1% 45%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .heading_proj {
+    font-size: 27.5px;
+  }
+  .proj-card {
+    width: 166px;
     height: 350px;
-    background-color: #f0f0f0;
-    border-radius: 1rem;
-    padding: 4px 4px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    cursor: pointer;
-}
-.heading_proj{
-    color: whitesmoke;
-    font-weight: 1000;
-    margin: 40px;
-    text-align: center;
-    
-}
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px;
-    padding: 0 60px;
-}
-.project_img{
+  }
+  .project_im {
     height: 196px;
-    width: 290px;
-    object-fit: cover;
-    border-radius: 0.5rem;
-}
-.icon-proj{
-    filter: invert(53%) sepia(80%) saturate(3790%) hue-rotate(88deg) brightness(107%) contrast(113%);
-}
-.heading1{
-    text-align: center;
-    font-weight: bolder;
-   
-}
-.h3Class{
-    font-weight: 1000;
-    color: black;
-}
-.h6Class{
-    font-weight: 300;
-    color: black;
-}
-.ViewAll{
-    background-color: rgb(17, 201, 17);
-    color: white;
-    height: 40px;
-    width: 100px;
-
-    border-radius: 1rem;
-
-    margin: 1% 45%;
-    margin-top: 10px;
-    cursor: pointer;
-}
-@media (max-width:480px) {
-    .heading_proj{
-        font-size: 27.5px;
-    }
-    .proj-card{
-        width: 200px;
-        height: 350px;
-    }
-    .project_img{
-        height: 196px;
-        width: 192px;
-    }
-    .box{
-        
-        padding: 0;
-        margin: 0;
-    }
+    width: 150px;
+  }
+  .box {
+    padding: 0;
+    margin: 0;
+  }
 }

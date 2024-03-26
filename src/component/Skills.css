@@ -1,51 +1,50 @@
-.Skill_heading{
-    font-size: 50px;
-    text-align: center;
-    background-color:rgb(
-        30, 30, 30);
-    color: whitesmoke;
+.Skill_heading {
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: whitesmoke;
 }
-.muscle-img{
-    width: 40px;
+.muscle-img {
+  width: 40px;
 }
-.Container_skill_style{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(30, 30, 30);
-    width: auto;
-    justify-content: space-around;
-    
+.Container_skill_style {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(30, 30, 30);
+  width: auto;
+  justify-content: space-around;
 }
-.skill_style{
-    color: black;
-    text-align: center;
-    margin: 5px;
-    height: 280px;
-    width: 250px;
-    background-color: #f0f0f0;
-    margin-left: 40px;
-    border-radius: 1rem;
+.skill_style {
+  color: black;
+  text-align: center;
+  margin: 5px;
+  height: 280px;
+  width: 250px;
+  background-color: #f0f0f0;
+  margin-left: 40px;
+  border-radius: 1rem;
 }
-.skill_style:hover{
-    border: 2px solid black ;
+.skill_style:hover {
+  border: 2px solid black;
 }
-.skill_style>li{
-    text-align: left;
-    padding: 4px;
-    padding-left: 10px;
-    list-style-type: square;
+.skill_style > li {
+  text-align: left;
+  padding: 4px;
+  padding-left: 10px;
+  list-style-type: square;
 }
-.skill_container{
-    background-color: rgb(30, 30, 30);
+.skill_container {
+  background-color: rgb(30, 30, 30);
 }
-@media (max-width:480px) {
-    .Skill_heading{
-        font-size: 27.5px;
-    }
-    .skill_style{
-        width: 194px;
-        margin: 2px;
-        margin-left: 20px;
-    }
-    
+@media (max-width: 480px) {
+  .Skill_heading {
+    font-size: 27.5px;
+  }
+  .skill_style {
+    width: 165px;
+    margin: 2px;
+  }
+  .skill_container {
+    margin-left: 30px;
+  }
 }
